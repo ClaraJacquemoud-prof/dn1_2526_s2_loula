@@ -3,7 +3,7 @@ let grille = 20;
 let marge = 0;
 let sound,amp,timeCode;
 let affichage1 = false;
-let affichage2 = false;
+let affichage2 = true;
 let affichage3 = false;
 let affichage4 = false;
 let temps =0;
@@ -872,4 +872,5 @@ function effect85(){
             rect(x, y, taille,taille);
         }
     }
+
 }
